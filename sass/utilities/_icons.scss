@@ -1,0 +1,12 @@
+.i-hotel{
+    @include background_general('/images/icons/icon-apartment.svg')
+}
+.i-rooms{
+    @include background_general('/images/icons/icon-room.svg')
+}
+.i-calendar{
+    @include background_general('/images/icons/icon-calendar.svg')
+}
+.i-guest{
+    @include background_general('/images/icons/icon-guest.svg')
+}

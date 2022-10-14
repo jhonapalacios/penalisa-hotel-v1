@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Peñalisa - Colsubsidio</title>
+    <link  rel="stylesheet" href="css/slick.css">
+    <link  rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="content_head w_100">
+            <h1 class="align-left txt-white">HOSPÉDAJE EN EL<br>
+                <span class="txt-yellow">HOTEL PEÑALIZA</span>
+            </h1>
+            <div class="container_form w_90">
+                <form action="">
+                    <h2 class="tilte_form align-center txt-blue">RESERVA LA HABITACIÓN PERFECTA PARA TI</h2>
+                    <div class="container_inputs">
+                        <div class="content-input">
+                            <label for="Hotel">
+                                <i class="icon-form i-hotel"></i>
+                                <select name="" id="">
+                                    <option value="">Hotel Peñalisa</option>
+                                    <option value="">Hotel uno</option>
+                                    <option value="">Hotel dos</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="content-input">
+                            <label for="dates" class="toggle_dates hidden-xs">
+                                <i class="icon-form i-calendar"></i>
+                                <span id="start-date">Desde</span> / <span id="end-date">Hasta</span>
+                            </label>
+                            <div class="content_dates">
+                                <label class="input-date" for="start">
+                                    <i class="icon-form i-calendar"></i>
+                                    <span>Desde</span>
+                                    <input type="date" id="start" name="trip-start"
+                                    value="2022-11-01"
+                                    min="2022-11-01" max="2022-12-31">
+                                </label>
+                                <label class="input-date" for="end">
+                                    <i class="icon-form i-calendar"></i>
+                                    <span>Hasta</span>
+                                    <input type="date" id="end" name="trip-end"
+                                    value="2022-11-02"
+                                    min="2022-11-02" max="2023-31-03">
+                                </label>
+                            </div>
+                        </div>
+                        <div class="content-input">
+                            <label for="guests">
+                                <i class="icon-form i-guest"></i>
+                                <select name="" id="">
+                                    <option value="">1 adulto</option>
+                                    <option value="">2 adultos</option>
+                                    <option value="">3 adultos</option>
+                                    <option value="">2 adultos + 1 niño</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="content-input">
+                            <label for="rooms">
+                                <i class="icon-form i-rooms"></i>
+                                <select name="" id="">
+                                    <option value="">Tipo de habitación</option>
+                                    <option value="">Sencilla</option>
+                                    <option value="">Premium</option>
+                                </select>
+                            </label>
+                        </div>
+                        <input class="btn-form" type="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </header>
+    <!-- About -->
+    <section class="about">
+        <div class="w_100">
+            
+            <h2 class="align-center txt-gray-dark">¡Ven y conoce todo lo que el <span class="txt-blue">Hotel Peñalisa</span> tiene para ti!</h2>
+            
+            <div class="full-left grid_50">
+                <div>
+                    <img src="images/about-01.png" alt="">
+                </div>
+                <div>
+                    <p>
+                        Caracterizado por una arquitectura moderna y un diseño de vanguardia, el hotel cuenta con 209 habitaciones de las cuales 57 tienen un sistema que optimiza el uso de la energía.
+                        Contamos con cinco salones y un auditorio para eventos empresariales y sociales, además de una moderna infraestructura para descansar y divertirse en nuestras piscinas, bolera, cancha múltiple y de minitenis, salón de juegos, gimnasio, entre otros.<br><br>
+                        Para complementar tu experiencia y hacerla más memorable, podrás acceder a los atractivos adicionales del Hotel Bosques de Athán y del Parque Acuático y de Conservación Piscilago.
+                        Comprometidos con esta bella región turística, en las Torres Sol y Palmas usamos la energía solar para el funcionamiento del calentador de agua y adelantamos diferentes estrategias de sostenibilidad desde los ámbitos ambiental, sociocultural y económico. Así buscamos hacer un uso eficiente de los recursos, resaltar los servicios ecosistémicos y desarrollar experiencias en función de los valores turísticos, culturales y sociales del entorno.
+                    </p>
+                </div>
+            </div>
+
+            <div class="full-center grid_33">
+                <div>
+                    <p>
+                        Somos responsables con nuestros niños y adolescentes, por ello, en cumplimiento con la Ley 679 de 2001 ESCNNA y Resolución 3840 de 2009, adelantamos acciones para prevenir la explotación sexual de niños, niñas y adolescentes. Nuestros servicios están certificados por la norma ISO 9001:2015 y NTS-002: 2014, vigilados y controlados por la Superintendencia de Subsidio Familiar.
+                    </p>
+                </div>
+                <div>
+                    <img src="images/about-02.png" alt="">
+                </div>
+                <div class="hidden-xs">
+                    <img src="images/about-03.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Reservas -->
+    <section class="rooms">
+        <div class="w_100">
+            <div class="cont_center w_90">    
+                <h3 class="align-left txt-gray-dark">Escoge una de nuestras maravillosas habitaciones</h3>
+                <p class="txt-blue">
+                    Somos sinónimo de sol, comodidad e inolvidables experiencias. Nuestro hotel, ubicado en Ricaurte, tiene todo para que disfrutes con tu familia en un ambiente rodeado de naturaleza y lo mejor de la gastronomía local.
+                </p>
+                <div class="tabs">
+                    <ul class="tab_items">
+                        <li class="item active" id="tab_1">Conoce nuestras tarifas hotel Peñalisa</li>
+                        <li class="item "  id="tab_2">Conoce nuestras tarifas hotel Peñalisa torre palmas</li>
+                    </ul>
+                    <div id="tab_1" class="tab_content active">
+                        <div class="box_room tab_content--item">
+                            <div class="content_slide">
+                                <ul class="slide_room">
+                                    <li><img src="/images/room-01.png" alt=""></li>
+                                    <li><img src="/images/room-02.png" alt=""></li>
+                                    <li><img src="/images/room-03.png" alt=""></li>
+                                    <li><img src="/images/room-04.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="info_room">
+                                <p class="title_room">Habitación Torre Cauchos</p>
+                                <ul class="list_room">
+                                    <li>Con capacidad para 1 a 7 personas</li>
+                                    <li>Habitaciones con 1 y 2 ambientes</li>
+                                    <li>De 1 a 2 baños</li>
+                                    <li>Terraza o balcón</li>
+                                    <li>Televisión con DIRECTV</li>
+                                    <li>Aire acondicionado</li>
+                                    <li>Cajilla de seguridad</li>
+                                </ul>
+                                <a href="" class="btn_room">Reserva aquí <img src="/images/icons/arrow-enlace.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="box_room tab_content--item">
+                            <div class="content_slide">
+                                <ul class="slide_room">
+                                    <li><img src="/images/room-01.png" alt=""></li>
+                                    <li><img src="/images/room-02.png" alt=""></li>
+                                    <li><img src="/images/room-03.png" alt=""></li>
+                                    <li><img src="/images/room-04.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="info_room">
+                                <p class="title_room">Habitación Torre Cauchos</p>
+                                <ul class="list_room">
+                                    <li>Con capacidad para 1 a 7 personas</li>
+                                    <li>Habitaciones con 1 y 2 ambientes</li>
+                                    <li>De 1 a 2 baños</li>
+                                    <li>Terraza o balcón</li>
+                                    <li>Televisión con DIRECTV</li>
+                                    <li>Aire acondicionado</li>
+                                    <li>Cajilla de seguridad</li>
+                                </ul>
+                                <a href="" class="btn_room">Reserva aquí <img src="/images/icons/arrow-enlace.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="box_room tab_content--item">
+                            <div class="content_slide">
+                                <ul class="slide_room">
+                                    <li><img src="/images/room-01.png" alt=""></li>
+                                    <li><img src="/images/room-02.png" alt=""></li>
+                                    <li><img src="/images/room-03.png" alt=""></li>
+                                    <li><img src="/images/room-04.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="info_room">
+                                <p class="title_room">Habitación Torre Cauchos</p>
+                                <ul class="list_room">
+                                    <li>Con capacidad para 1 a 7 personas</li>
+                                    <li>Habitaciones con 1 y 2 ambientes</li>
+                                    <li>De 1 a 2 baños</li>
+                                    <li>Terraza o balcón</li>
+                                    <li>Televisión con DIRECTV</li>
+                                    <li>Aire acondicionado</li>
+                                    <li>Cajilla de seguridad</li>
+                                </ul>
+                                <a href="" class="btn_room">Reserva aquí <img src="/images/icons/arrow-enlace.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="box_room tab_content--item">
+                            <div class="content_slide">
+                                <ul class="slide_room">
+                                    <li><img src="/images/room-01.png" alt=""></li>
+                                    <li><img src="/images/room-02.png" alt=""></li>
+                                    <li><img src="/images/room-03.png" alt=""></li>
+                                    <li><img src="/images/room-04.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="info_room">
+                                <p class="title_room">Habitación Torre Cauchos</p>
+                                <ul class="list_room">
+                                    <li>Con capacidad para 1 a 7 personas</li>
+                                    <li>Habitaciones con 1 y 2 ambientes</li>
+                                    <li>De 1 a 2 baños</li>
+                                    <li>Terraza o balcón</li>
+                                    <li>Televisión con DIRECTV</li>
+                                    <li>Aire acondicionado</li>
+                                    <li>Cajilla de seguridad</li>
+                                </ul>
+                                <a href="" class="btn_room">Reserva aquí <img src="/images/icons/arrow-enlace.svg" alt=""></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div id="tab_2" class="tab_content">
+                        <div class="box_room tab_content--item">
+                            <div class="content_slide">
+                                <ul class="slide_room">
+                                    <li><img src="/images/room-01.png" alt=""></li>
+                                    <li><img src="/images/room-02.png" alt=""></li>
+                                    <li><img src="/images/room-03.png" alt=""></li>
+                                    <li><img src="/images/room-04.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="info_room">
+                                <p class="title_room">torre palmas - Habitación Torre Cauchos</p>
+                                <ul class="list_room">
+                                    <li>Con capacidad para 1 a 7 personas</li>
+                                    <li>Habitaciones con 1 y 2 ambientes</li>
+                                    <li>De 1 a 2 baños</li>
+                                    <li>Terraza o balcón</li>
+                                    <li>Televisión con DIRECTV</li>
+                                    <li>Aire acondicionado</li>
+                                    <li>Cajilla de seguridad</li>
+                                </ul>
+                                <a href="" class="btn_room">Reserva aquí <img src="/images/icons/arrow-enlace.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="box_room tab_content--item">
+                            <div class="content_slide">
+                                <ul class="slide_room">
+                                    <li><img src="/images/room-01.png" alt=""></li>
+                                    <li><img src="/images/room-02.png" alt=""></li>
+                                    <li><img src="/images/room-03.png" alt=""></li>
+                                    <li><img src="/images/room-04.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="info_room">
+                                <p class="title_room">torre palmas - Habitación Torre Cauchos</p>
+                                <ul class="list_room">
+                                    <li>Con capacidad para 1 a 7 personas</li>
+                                    <li>Habitaciones con 1 y 2 ambientes</li>
+                                    <li>De 1 a 2 baños</li>
+                                    <li>Terraza o balcón</li>
+                                    <li>Televisión con DIRECTV</li>
+                                    <li>Aire acondicionado</li>
+                                    <li>Cajilla de seguridad</li>
+                                </ul>
+                                <a href="" class="btn_room">Reserva aquí <img src="/images/icons/arrow-enlace.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="box_room tab_content--item">
+                            <div class="content_slide">
+                                <ul class="slide_room">
+                                    <li><img src="/images/room-01.png" alt=""></li>
+                                    <li><img src="/images/room-02.png" alt=""></li>
+                                    <li><img src="/images/room-03.png" alt=""></li>
+                                    <li><img src="/images/room-04.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="info_room">
+                                <p class="title_room">torre palmas - Habitación Torre Cauchos</p>
+                                <ul class="list_room">
+                                    <li>Con capacidad para 1 a 7 personas</li>
+                                    <li>Habitaciones con 1 y 2 ambientes</li>
+                                    <li>De 1 a 2 baños</li>
+                                    <li>Terraza o balcón</li>
+                                    <li>Televisión con DIRECTV</li>
+                                    <li>Aire acondicionado</li>
+                                    <li>Cajilla de seguridad</li>
+                                </ul>
+                                <a href="" class="btn_room">Reserva aquí <img src="/images/icons/arrow-enlace.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="box_room tab_content--item">
+                            <div class="content_slide">
+                                <ul class="slide_room">
+                                    <li><img src="/images/room-01.png" alt=""></li>
+                                    <li><img src="/images/room-02.png" alt=""></li>
+                                    <li><img src="/images/room-03.png" alt=""></li>
+                                    <li><img src="/images/room-04.png" alt=""></li>
+                                </ul>
+                            </div>
+                            <div class="info_room">
+                                <p class="title_room">torre palmas - Habitación Torre Cauchos</p>
+                                <ul class="list_room">
+                                    <li>Con capacidad para 1 a 7 personas</li>
+                                    <li>Habitaciones con 1 y 2 ambientes</li>
+                                    <li>De 1 a 2 baños</li>
+                                    <li>Terraza o balcón</li>
+                                    <li>Televisión con DIRECTV</li>
+                                    <li>Aire acondicionado</li>
+                                    <li>Cajilla de seguridad</li>
+                                </ul>
+                                <a href="" class="btn_room">Reserva aquí <img src="/images/icons/arrow-enlace.svg" alt=""></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Show more -->
+    <section class="show_more">
+        <div class="w_100">
+            <h3 class="txt-gray-dark align-center">Descubre más</h3>
+            <ul class="slide_showmore">
+                <li><img src="/images/show-02.png" alt=""></li>
+                <li><img src="/images/show-01.png" alt=""></li>
+                <li><img src="/images/show-03.png" alt=""></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- actividades -->
+    <section class="actividades">
+        <div class="w_100">
+            <div class="cont_center full-center">
+                <div class="info_actividades">
+                    <h3 class="txt-gray-dark">
+                        Disfruta de <span class="txt-blue">nuestras
+                        actividades</span></h3>
+                    <p>
+                        Todas nuestras actividades requieren previa reserva y se recomienda llegar 10 minutos antes, las actividades recreativas, ambientales y culturales, varían sus horarios y fechas pregunta en recepción por ellas.
+                    </p>
+                </div>
+                <div class="list_actividades">
+                    <ul class="items grid-3">
+                        <li class="item">
+                            <img src="/images/icons/icon-billiards.svg" alt="">
+                            <p>Billar y billar pool</p>
+                        </li>
+                        <li class="item">
+                            <img src="/images/icons/icon-pingpong.svg" alt="">
+                            <p>Tenis de mesa</p>
+                        </li>
+                        <li class="item">
+                            <img src="/images/icons/icon-bowling.svg" alt="">
+                            <p>Bolera</p>
+                        </li>
+                        <li class="item">
+                            <img src="/images/icons/icon-dancing.svg" alt="">
+                            <p>Actividades recreativas, ambientales y culturales</p>
+                        </li>
+                        <li class="item">
+                            <img src="/images/icons/icon-foot-bowling.svg" alt="">
+                            <p>Futbolín</p>
+                        </li>
+                        <li class="item">
+                            <img src="/images/icons/icon-chess.svg" alt="">
+                            <p>Ludoteca con videojuegos
+                                y juegos de mesa</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Salones -->
+    <section class="room_events">
+        <div class="w_100">
+            <div class="cont_center full-center">
+                <div class="info_events">
+                    <h3 class="txt-gray-dark">
+                        Conoce nuestros salones para eventos
+                    </h3>
+                    <p>
+                        En el Hotel Peñalisa encuentras cinco salones y un auditorio para el desarrollo de tus reuniones, convenciones empresariales o sociales. Además, ofrecemos todas las ayudas audiovisuales, catering y apoyo logístico que garantizan el éxito de tus eventos. 
+                    </p>
+                    <a href="#" class="btn-primary">Conoce más</a>
+                </div>
+                <div class="rooms_events">
+                    <ul class="slide_events">
+                        <li class="box-salon item_room">
+                            <div class="cont_img">
+                                <img src="/images/events-01.png" alt="">
+                            </div>
+                            <div class="info_item">
+                                <p class="title_room">Salón Mangos 1</p>
+                                <p>Capacidad con control de aforo</p>
+                                <ul>
+                                    <li>Tipo U: 8 personas</li>
+                                    <li>Tipo aula: 8 personas</li>
+                                    <li>Tipo auditorio: 9 personas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="box-salon item_room">
+                            <div class="cont_img">
+                                <img src="/images/events-02.png" alt="">
+                            </div>
+                            <div class="info_item">
+                                <p class="title_room">Salón Primavera</p>
+                                <p>Capacidad con control de aforo</p>
+                                <ul>
+                                    <li>Tipo U: 8 personas</li>
+                                    <li>Tipo aula: 8 personas</li>
+                                    <li>Tipo auditorio: 9 personas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="box-salon item_room">
+                            <div class="cont_img">
+                                <img src="/images/events-03.png" alt="">
+                            </div>
+                            <div class="info_item">
+                                <p class="title_room">Auditorio Almendros</p>
+                                <p>Capacidad con control de aforo</p>
+                                <ul>
+                                    <li>Tipo U: 8 personas</li>
+                                    <li>Tipo aula: 8 personas</li>
+                                    <li>Tipo auditorio: 9 personas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="box-salon item_room">
+                            <div class="cont_img">
+                                <img src="/images/events-01.png" alt="">
+                            </div>
+                            <div class="info_item">
+                                <p class="title_room">Salón Mangos 1</p>
+                                <p>Capacidad con control de aforo</p>
+                                <ul>
+                                    <li>Tipo U: 8 personas</li>
+                                    <li>Tipo aula: 8 personas</li>
+                                    <li>Tipo auditorio: 9 personas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="box-salon item_room">
+                            <div class="cont_img">
+                                <img src="/images/events-02.png" alt="">
+                            </div>
+                            <div class="info_item">
+                                <p class="title_room">Salón Primavera</p>
+                                <p>Capacidad con control de aforo</p>
+                                <ul>
+                                    <li>Tipo U: 8 personas</li>
+                                    <li>Tipo aula: 8 personas</li>
+                                    <li>Tipo auditorio: 9 personas</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="box-salon item_room">
+                            <div class="cont_img">
+                                <img src="/images/events-03.png" alt="">
+                            </div>
+                            <div class="info_item">
+                                <p class="title_room">Auditorio Almendros</p>
+                                <p>Capacidad con control de aforo</p>
+                                <ul>
+                                    <li>Tipo U: 8 personas</li>
+                                    <li>Tipo aula: 8 personas</li>
+                                    <li>Tipo auditorio: 9 personas</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="brochure">
+
+        <div class="w_100">
+            <div class="content_brochure">
+                <div class="img_brochure">
+                    <img src="images/brochure.png" alt="">
+                </div>
+                <div class="info_brochure">
+                    <h3 class="align-center">
+                        <span>Todo en un solo lugar</span><br>
+                        Brochure de este destino
+                    </h3>
+                    <p class="align-center">Encuentra en un solo lugar todo lo que necesitas durante tu estadía: piscina, zona infantil, restaurantes, zonas verdes, bolera y mucho más.</p>
+                    <a href="#" class="btn-primary">Descargar aquí</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location">
+        <div class="cont_center w_90">
+            <div class="content_location">
+                <h3 class="align-center txt-blue">¿Cómo llegar?</h3>
+                <h4 class="align-center">Kilómetro 120, vía Bogotá – Girardot 
+                    Carrera 11 n.° 9-95</h4>
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=675&amp;height=400&amp;hl=en&amp;q=Hotel peñaliza de colsubsidio&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://mcpenation.com/">MCPE Nation</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+                <div class="contact_info">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <img src="images/icons/icon-phone.svg" alt="">
+                            </div>
+                            <p>Números:
+                                <strong>310-589-564</strong>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="images/icons/icon-email.svg" alt="">
+                            </div>
+                            <p>Email:
+                                <strong>recepcion.penalisa
+                                    @colsubsidio.com</strong>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="images/icons/icon-location.svg" alt="">
+                            </div>
+                            <p>Recepciones:
+                                <strong>316-589-963</strong>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

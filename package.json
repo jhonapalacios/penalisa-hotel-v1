@@ -1,0 +1,19 @@
+{
+  "name": "penalisa-hotel",
+  "version": "1.0.0",
+  "description": "Theme generado con sass y js para implmentació de landing page para el hotel penalisa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "node-sass sass/main.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhonapalacios"
+  },
+  "author": "Jhonatan Palacios Marroquin",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

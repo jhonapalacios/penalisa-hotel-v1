@@ -1,0 +1,43 @@
+//Textos
+@mixin Title-big{
+    font-family:$Title-bold;
+    font-size: calc(3em + 1vw);
+    line-height: calc(1em + 1vh);
+}
+@mixin Title-medium{
+    font-family:$Title-bold;
+    font-size: calc(2em + 1vw);
+    line-height: calc(1em + 1vh);
+}
+@mixin Title-regular{
+    font-family:$Title-bold;
+    font-size: calc(1em + 1vw);
+    line-height: calc(1em + 1vh);
+}
+@mixin Text-Regular{
+    font-family:$Text-regular;
+    font-size: calc(0.1em + 1vw);
+    line-height: 1.2em;
+}
+@mixin Text-Button{
+    font-family:$Text-button;
+    font-size: calc(0.1em + 1vw);
+    line-height: 1.2em;
+}
+
+@mixin Estructura_botones{
+    @include Text-Button;
+    border: none;
+    background: transparent;
+    text-decoration: none;
+    height: 55px;
+    padding: 0 25px;
+    border-radius:4px;
+    cursor:pointer;
+}
+@mixin background_general($url_img , $size_img: initial, $x_position : 0 , $y_position : 0 , $img_repeat : no-repeat){
+    background-image: url($url_img);
+    background-size:$size_img;
+    background-position: $x_position $y_position;
+    background-repeat: $img_repeat;
+}

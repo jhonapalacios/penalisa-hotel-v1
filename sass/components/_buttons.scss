@@ -1,0 +1,31 @@
+
+.btn-form{
+    @include Estructura_botones;
+    color:$blue;
+    background-color:$yellow;
+    border-radius:0px;
+    &:hover{
+        color:$yellow;
+        background-color:$blue;
+    }
+}
+.btn-primary{
+    @include Estructura_botones;
+    color:$white;
+    background-color:$blue;
+    border: solid 1px $blue;
+    &:hover{
+        color:$blue;
+        background-color:$white;
+    }
+}
+.btn-second{
+    @include Estructura_botones;
+    color:$blue;
+    background-color:$white;
+    border: solid 1px $blue;
+    &:hover{
+        color:$white;
+        background-color:$blue;
+    }
+}
